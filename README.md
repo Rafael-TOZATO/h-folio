@@ -1,5 +1,7 @@
 <div align="center">
 
+![Banner Retrospectiva H-Folio](./banner-portfolio-retrospectiva.png)
+
 # 🚀 Rafael Ornelas Tozato — H-Folio & Ecossistema de Projetos
 
 ![Status](https://img.shields.io/badge/Status-Online-success?style=for-the-badge)
@@ -20,8 +22,9 @@ O **H-Folio** é o ecossistema central de aplicações web e portfólio profissi
 
 ---
 
-## 💼 Perfil Profissional
+## 💼 Perfil Profissional & Documentos
 * **Currículo & Governança:** Trajetória sólida em Engenharia de Software, Qualidade e Governança Industrial (ISO 9001 e Lean Six Sigma).
+* 📄 **Download do Documento / Carrossel (PDF):** [Visualizar Carrossel de Retrospectiva (PDF)](./Carrossel_Retrospectiva_GitHub_Rafael_Tozato.pdf)
 
 ---
 
