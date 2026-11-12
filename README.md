@@ -9,8 +9,8 @@
 ![TailwindCSS](https://img.shields.io/badge/Styling-TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss)
 ![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel)
 
-[![Security Scan](https://img.shields.io/badge/CodeQL-Passed-brightgreen?style=flat-square&logo=githubactions)](https://github.com/Rafael-TOZATO/h-folio)
-[![Code Quality](https://img.shields.io/badge/Code_Quality-A%2B-blueviolet?style=flat-square&logo=sonarcloud)](https://github.com/Rafael-TOZATO/h-folio)
+[![Static Asset Security & Quality Gate](https://github.com/Rafael-TOZATO/h-folio/actions/workflows/security-quality.yml/badge.svg?branch=main)](https://github.com/Rafael-TOZATO/h-folio/actions/workflows/security-quality.yml)
+[![Dependabot](https://img.shields.io/badge/Dependabot-enabled-025E8C?logo=dependabot&logoColor=white&style=flat-square)](https://github.com/Rafael-TOZATO/h-folio/network/updates)
 [![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/Rafael-TOZATO)
 
 </div>
@@ -39,7 +39,7 @@ O **H-Folio** é o ecossistema central de aplicações web e portfólio profissi
 * **Link:** [tozato-dev-hub.vercel.app](https://tozato-dev-hub.vercel.app)
 
 ### 03. Portfólio Retrospectiva *(Integrado)*
-* **Descrição:** Consolidado da Retrospectiva Técnica e Profissional, unindo mais de 35 repositórios em Governança 4.0, Automação, BI e IA.
+* **Descrição:** Consolidado da Retrospectiva Técnica e Profissional, reunindo projetos em Governança 4.0, Automação, BI e IA. O perfil GitHub exibia 41 repositórios na captura de 11/11/2026.
 * **Repositório:** [portfolio-retrospectiva](https://github.com/Rafael-TOZATO/portfolio-retrospectiva)
 
 ### 04. Aurora BI DIO
@@ -97,3 +97,18 @@ O **H-Folio** é o ecossistema central de aplicações web e portfólio profissi
 - **Dev Hub:** [tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
 - **H-Folio:** [h-folio-l0.vercel.app](https://h-folio-l0.vercel.app)
 - **Microsoft Learn:** [rafaelornelastozato-2209](https://learn.microsoft.com/pt-br/users/rafaelornelastozato-2209)
+
+
+---
+
+## Qualidade e Governança
+
+Este repositório distribui artefatos estáticos — PDF da retrospectiva e imagem de banner. Não contém código-fonte de aplicação, endpoints de API, manifesto npm ou dependências de runtime. Por esse motivo, análise CodeQL de JavaScript/TypeScript, SAST de aplicação e auditoria npm/pnpm não são aplicáveis ao conteúdo atualmente versionado.
+
+- **Integridade do PDF:** Quality Gate automatizado com validação da assinatura, verificação estrutural via qpdf e inspeção de ações ativas e conteúdo incorporado.
+- **Segurança de conteúdo:** o pipeline bloqueia construções PDF potencialmente executáveis, como JavaScript, ações de lançamento e arquivos incorporados.
+- **CI/CD:** execução em push, pull request, acionamento manual e agenda semanal.
+- **Dependências de automação:** Dependabot monitora semanalmente as GitHub Actions.
+- **Princípio de escopo:** nenhuma alteração nos arquivos visuais, no PDF ou no banner é realizada pelo workflow.
+
+[![Security Quality Gate](https://github.com/Rafael-TOZATO/h-folio/actions/workflows/security-quality.yml/badge.svg?branch=main)](https://github.com/Rafael-TOZATO/h-folio/actions/workflows/security-quality.yml)
