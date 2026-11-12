@@ -1,0 +1,60 @@
+name: Static Asset Security & Quality Gate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: "23 5 * * 1"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: static-asset-gate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pdf-security:
+    name: PDF integrity and active-content checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+
+      - name: Install qpdf
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y qpdf
+
+      - name: Validate PDF structure
+        shell: bash
+        run: |
+          set -euo pipefail
+          pdf="Carrossel_Retrospectiva_GitHub_Rafael_Tozato.pdf"
+          test -s "$pdf"
+          test "$(head -c 5 "$pdf")" = "%PDF-"
+          qpdf --check "$pdf"
+
+      - name: Reject active PDF content
+        shell: bash
+        run: |
+          set -euo pipefail
+          pdf="Carrossel_Retrospectiva_GitHub_Rafael_Tozato.pdf"
+          qpdf --qdf --object-streams=disable "$pdf" /tmp/carrossel-qdf.pdf
+          if grep -aEiq '/(JavaScript|JS|Launch|OpenAction|AA|EmbeddedFiles)([^[:alnum:]_]|$)' /tmp/carrossel-qdf.pdf; then
+            echo "::error::PDF contém ação ativa ou conteúdo incorporado não autorizado."
+            exit 1
+          fi
+
+      - name: Validate repository governance metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s README.md
+          test -s .github/dependabot.yml
+          grep -q '## Qualidade e Governança' README.md
+          echo "Repositório de artefatos estáticos: sem runtime npm, endpoints de API ou código-fonte executável para análise CodeQL."
