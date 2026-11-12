@@ -45,8 +45,11 @@ jobs:
           set -euo pipefail
           pdf="Carrossel_Retrospectiva_GitHub_Rafael_Tozato.pdf"
           qpdf --qdf --object-streams=disable "$pdf" /tmp/carrossel-qdf.pdf
-          if grep -aEiq '/(JavaScript|JS|Launch|OpenAction|AA|EmbeddedFiles)([^[:alnum:]_]|$)' /tmp/carrossel-qdf.pdf; then
-            echo "::error::PDF contém ação ativa ou conteúdo incorporado não autorizado."
+          matches="$(grep -aEo '/(JavaScript|JS|Launch|OpenAction|AA|EmbeddedFiles)([^[:alnum:]_]|$)' /tmp/carrossel-qdf.pdf | sort -u || true)"
+          if [ -n "$matches" ]; then
+            echo "Marcadores encontrados no PDF:"
+            printf '%s\\n' "$matches"
+            echo "::error::Revisão manual necessária para os marcadores de ação ativa encontrados."
             exit 1
           fi
 
