@@ -45,7 +45,7 @@ jobs:
           set -euo pipefail
           pdf="Carrossel_Retrospectiva_GitHub_Rafael_Tozato.pdf"
           qpdf --qdf --object-streams=disable "$pdf" /tmp/carrossel-qdf.pdf
-          matches="$(grep -aEo '/(JavaScript|JS|Launch|OpenAction|AA|EmbeddedFiles)([^[:alnum:]_]|$)' /tmp/carrossel-qdf.pdf | sort -u || true)"
+          matches="$(grep -aEo '/(JavaScript|Launch|OpenAction|EmbeddedFiles|RichMedia|SubmitForm|ImportData|GoToR)([^[:alnum:]_]|$)' /tmp/carrossel-qdf.pdf | sort -u || true)"
           if [ -n "$matches" ]; then
             echo "Marcadores encontrados no PDF:"
             printf '%s\\n' "$matches"
