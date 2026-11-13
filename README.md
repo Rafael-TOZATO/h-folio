@@ -19,16 +19,12 @@
 
 ---
 
+---
+
 ## 📌 Sobre o Aplicativo
 O **H-Folio** é o ecossistema central de aplicações web e portfólio profissional de Rafael Ornelas Tozato, unindo engenharia de software, automações inteligentes, governança industrial e inteligência artificial.
 
 ---
-
----
-
-## 💼 Perfil Profissional & Documentos
-* **Currículo & Governança:** Trajetória sólida em Engenharia de Software, Qualidade e Governança Industrial (ISO 9001 e Lean Six Sigma).
-* 📄 **Download do Documento / Carrossel (PDF):** [Visualizar Carrossel de Retrospectiva (PDF)](./Carrossel_Retrospectiva_GitHub_Rafael_Tozato.pdf)
 
 ---
 
@@ -80,10 +76,14 @@ O **H-Folio** é o ecossistema central de aplicações web e portfólio profissi
 
 ---
 
+---
+
 ## 🛠️ Tecnologias e Arquitetura
 - **Frontend & Interfaces:** React, TypeScript, Tailwind CSS, Next.js
 - **Infraestrutura & Deploy:** Vercel, Git / GitHub Actions
 - **Automação & Processos:** n8n, Python, Power BI, Governança 4.0
+
+---
 
 ---
 
@@ -117,29 +117,25 @@ Este repositório adota controles automatizados de Governança 4.0 para fortalec
 
 ---
 
-## 💻 PROJETOS E PORTFÓLIOS
+---
+
+## 📬 CONTATOS E PERFIS
+
+* **Currículo & Governança:** Trajetória sólida em Engenharia de Software, Qualidade e Governança Industrial (ISO 9001 e Lean Six Sigma).
+* 📄 **Download do Documento / Carrossel (PDF):** [Visualizar Carrossel de Retrospectiva (PDF)](./Carrossel_Retrospectiva_GitHub_Rafael_Tozato.pdf)
+
+---
+
 - **App Ecosystem:** [tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
 - **H-Folio:** [h-folio-l0.vercel.app](https://h-folio-l0.vercel.app)
 
----
-
-## 🐙 CÓDIGO E REPOSITÓRIOS
 - **GitHub:** [github.com/Rafael-TOZATO](https://github.com/Rafael-TOZATO)
 
----
-
-## ✍️ ARTIGOS E PUBLICAÇÕES
 - **Medium:** [medium.com/@ornelas.tozato](https://medium.com/@ornelas.tozato)
 
----
-
-## 📬 CONTATOS
 - **E-mail:** ornelas.tozato@gmail.com
 - **LinkedIn:** [rafaeltozato81](https://www.linkedin.com/in/rafaeltozato81)
 - **GitHub:** [Rafael-TOZATO](https://github.com/Rafael-TOZATO)
 - **Medium:** [@ornelas.tozato](https://medium.com/@ornelas.tozato)
 - **Dev Hub:** [tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
-- **H-Folio:** [h-folio-l0.vercel.app](https://h-folio-l0.vercel.app)
 - **Microsoft Learn:** [rafaelornelastozato-2209](https://learn.microsoft.com/pt-br/users/rafaelornelastozato-2209)
-
----
