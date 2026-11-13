@@ -119,6 +119,13 @@ Este repositório adota controles automatizados de Governança 4.0 para fortalec
 
 ---
 
+<div align="center">
+
+[![Quality Gate](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/h-folio/security-quality.yml?branch=main&label=Quality%20Gate)](https://github.com/Rafael-TOZATO/h-folio/actions/workflows/security-quality.yml)
+[![Gitleaks](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/h-folio/gitleaks.yml?branch=main&label=Gitleaks)](https://github.com/Rafael-TOZATO/h-folio/actions/workflows/gitleaks.yml)
+
+</div>
+
 ## 📬 CONTATOS E PERFIS
 
 * **Currículo & Governança:** Trajetória sólida em Engenharia de Software, Qualidade e Governança Industrial (ISO 9001 e Lean Six Sigma).
