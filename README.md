@@ -112,3 +112,23 @@ Este repositório distribui artefatos estáticos — PDF da retrospectiva e imag
 - **Princípio de escopo:** nenhuma alteração nos arquivos visuais, no PDF ou no banner é realizada pelo workflow.
 
 [![Security Quality Gate](https://github.com/Rafael-TOZATO/h-folio/actions/workflows/security-quality.yml/badge.svg?branch=main)](https://github.com/Rafael-TOZATO/h-folio/actions/workflows/security-quality.yml)
+
+
+---
+
+## Governança 4.0 — Segurança e Qualidade
+
+Este repositório adota controles automatizados de Governança 4.0 para fortalecer a integridade dos artefatos digitais, a rastreabilidade das alterações e a prevenção de exposição de credenciais.
+
+- **Quality Gate:** validação da integridade estrutural do PDF, inspeção de conteúdo ativo e verificação dos metadados de governança.
+- **Segurança de segredos:** análise do histórico Git com Gitleaks Action v3.0.0.
+- **Dependências:** monitoramento automatizado das GitHub Actions por Dependabot.
+- **Menor privilégio:** permissões mínimas declaradas nos workflows e credenciais de checkout não persistidas.
+- **Preservação visual:** os controles de CI/CD não modificam o PDF, o banner ou os demais artefatos de apresentação.
+
+<div align="center">
+
+[![Quality Gate](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/h-folio/security-quality.yml?branch=main&label=Quality%20Gate)](https://github.com/Rafael-TOZATO/h-folio/actions/workflows/security-quality.yml)
+[![Gitleaks](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/h-folio/gitleaks.yml?branch=main&label=Gitleaks)](https://github.com/Rafael-TOZATO/h-folio/actions/workflows/gitleaks.yml)
+
+</div>
