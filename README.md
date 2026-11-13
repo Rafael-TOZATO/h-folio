@@ -17,14 +17,20 @@
 
 ---
 
+---
+
 ## 📌 Sobre o Aplicativo
 O **H-Folio** é o ecossistema central de aplicações web e portfólio profissional de Rafael Ornelas Tozato, unindo engenharia de software, automações inteligentes, governança industrial e inteligência artificial.
+
+---
 
 ---
 
 ## 💼 Perfil Profissional & Documentos
 * **Currículo & Governança:** Trajetória sólida em Engenharia de Software, Qualidade e Governança Industrial (ISO 9001 e Lean Six Sigma).
 * 📄 **Download do Documento / Carrossel (PDF):** [Visualizar Carrossel de Retrospectiva (PDF)](./Carrossel_Retrospectiva_GitHub_Rafael_Tozato.pdf)
+
+---
 
 ---
 
@@ -72,6 +78,8 @@ O **H-Folio** é o ecossistema central de aplicações web e portfólio profissi
 
 ---
 
+---
+
 ## 🛠️ Tecnologias e Arquitetura
 - **Frontend & Interfaces:** React, TypeScript, Tailwind CSS, Next.js
 - **Infraestrutura & Deploy:** Vercel, Git / GitHub Actions
@@ -79,15 +87,51 @@ O **H-Folio** é o ecossistema central de aplicações web e portfólio profissi
 
 ---
 
+---
+
+## Governança 4.0 — Segurança e Qualidade
+
+Este repositório adota controles automatizados de Governança 4.0 para assegurar integridade dos artefatos e do código, rastreabilidade das alterações, gestão de dependências e prevenção de exposição de credenciais. Os controles são aplicados conforme a natureza técnica e os componentes efetivamente mantidos no projeto.
+
+- **Quality Gate:** validação automatizada do escopo do repositório, incluindo verificações de integridade, testes, análise estática, tipagem ou build quando aplicáveis.
+- **Segurança de segredos:** varredura do histórico Git com Gitleaks Action v3.0.0.
+- **SAST:** análise com GitHub CodeQL para linguagens suportadas e presentes no código-fonte.
+- **Dependências:** monitoramento automatizado e revisão de vulnerabilidades conforme os manifests e lockfiles existentes.
+- **Menor privilégio:** permissões mínimas nos workflows e checkout sem persistência desnecessária de credenciais.
+- **Rastreabilidade:** commits, execuções e resultados dos controles permanecem registrados no GitHub Actions.
+
+### Controles específicos do repositório
+
+Este repositório distribui artefatos estáticos — PDF da retrospectiva e imagem de banner. Não contém código-fonte de aplicação, endpoints de API, manifesto npm ou dependências de runtime. Por esse motivo, análise CodeQL de JavaScript/TypeScript, SAST de aplicação e auditoria npm/pnpm não são aplicáveis ao conteúdo atualmente versionado.
+- **Integridade do PDF:** Quality Gate automatizado com validação da assinatura, verificação estrutural via qpdf e inspeção de ações ativas e conteúdo incorporado.
+- **Segurança de conteúdo:** o pipeline bloqueia construções PDF potencialmente executáveis, como JavaScript, ações de lançamento e arquivos incorporados.
+- **CI/CD:** execução em push, pull request, acionamento manual e agenda semanal.
+- **Dependências de automação:** Dependabot monitora semanalmente as GitHub Actions.
+- **Princípio de escopo:** nenhuma alteração nos arquivos visuais, no PDF ou no banner é realizada pelo workflow.
+Este repositório adota controles automatizados de Governança 4.0 para fortalecer a integridade dos artefatos digitais, a rastreabilidade das alterações e a prevenção de exposição de credenciais.
+- **Quality Gate:** validação da integridade estrutural do PDF, inspeção de conteúdo ativo e verificação dos metadados de governança.
+- **Segurança de segredos:** análise do histórico Git com Gitleaks Action v3.0.0.
+- **Dependências:** monitoramento automatizado das GitHub Actions por Dependabot.
+- **Menor privilégio:** permissões mínimas declaradas nos workflows e credenciais de checkout não persistidas.
+- **Preservação visual:** os controles de CI/CD não modificam o PDF, o banner ou os demais artefatos de apresentação.
+
+---
+
 ## 💻 PROJETOS E PORTFÓLIOS
 - **App Ecosystem:** [tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
 - **H-Folio:** [h-folio-l0.vercel.app](https://h-folio-l0.vercel.app)
 
+---
+
 ## 🐙 CÓDIGO E REPOSITÓRIOS
 - **GitHub:** [github.com/Rafael-TOZATO](https://github.com/Rafael-TOZATO)
 
+---
+
 ## ✍️ ARTIGOS E PUBLICAÇÕES
 - **Medium:** [medium.com/@ornelas.tozato](https://medium.com/@ornelas.tozato)
+
+---
 
 ## 📬 CONTATOS
 - **E-mail:** ornelas.tozato@gmail.com
@@ -98,37 +142,4 @@ O **H-Folio** é o ecossistema central de aplicações web e portfólio profissi
 - **H-Folio:** [h-folio-l0.vercel.app](https://h-folio-l0.vercel.app)
 - **Microsoft Learn:** [rafaelornelastozato-2209](https://learn.microsoft.com/pt-br/users/rafaelornelastozato-2209)
 
-
 ---
-
-## Qualidade e Governança
-
-Este repositório distribui artefatos estáticos — PDF da retrospectiva e imagem de banner. Não contém código-fonte de aplicação, endpoints de API, manifesto npm ou dependências de runtime. Por esse motivo, análise CodeQL de JavaScript/TypeScript, SAST de aplicação e auditoria npm/pnpm não são aplicáveis ao conteúdo atualmente versionado.
-
-- **Integridade do PDF:** Quality Gate automatizado com validação da assinatura, verificação estrutural via qpdf e inspeção de ações ativas e conteúdo incorporado.
-- **Segurança de conteúdo:** o pipeline bloqueia construções PDF potencialmente executáveis, como JavaScript, ações de lançamento e arquivos incorporados.
-- **CI/CD:** execução em push, pull request, acionamento manual e agenda semanal.
-- **Dependências de automação:** Dependabot monitora semanalmente as GitHub Actions.
-- **Princípio de escopo:** nenhuma alteração nos arquivos visuais, no PDF ou no banner é realizada pelo workflow.
-
-[![Security Quality Gate](https://github.com/Rafael-TOZATO/h-folio/actions/workflows/security-quality.yml/badge.svg?branch=main)](https://github.com/Rafael-TOZATO/h-folio/actions/workflows/security-quality.yml)
-
-
----
-
-## Governança 4.0 — Segurança e Qualidade
-
-Este repositório adota controles automatizados de Governança 4.0 para fortalecer a integridade dos artefatos digitais, a rastreabilidade das alterações e a prevenção de exposição de credenciais.
-
-- **Quality Gate:** validação da integridade estrutural do PDF, inspeção de conteúdo ativo e verificação dos metadados de governança.
-- **Segurança de segredos:** análise do histórico Git com Gitleaks Action v3.0.0.
-- **Dependências:** monitoramento automatizado das GitHub Actions por Dependabot.
-- **Menor privilégio:** permissões mínimas declaradas nos workflows e credenciais de checkout não persistidas.
-- **Preservação visual:** os controles de CI/CD não modificam o PDF, o banner ou os demais artefatos de apresentação.
-
-<div align="center">
-
-[![Quality Gate](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/h-folio/security-quality.yml?branch=main&label=Quality%20Gate)](https://github.com/Rafael-TOZATO/h-folio/actions/workflows/security-quality.yml)
-[![Gitleaks](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/h-folio/gitleaks.yml?branch=main&label=Gitleaks)](https://github.com/Rafael-TOZATO/h-folio/actions/workflows/gitleaks.yml)
-
-</div>
