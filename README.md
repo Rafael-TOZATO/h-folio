@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="banner-portfolio.jpg" alt="Rafael Tozato - Software Engineering & Artificial Intelligence" width="100%">
+  <img src="banner-portfolio-retrospectiva.png" alt="Rafael Tozato - Software Engineering & Artificial Intelligence" width="100%">
   
   <br><br>
 
@@ -32,57 +32,37 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI">
   <img src="https://img.shields.io/badge/Vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
-  <br><br>
-  <a href="https://github.com/Rafael-TOZATO/rafael-tozato-portfolio-dev/actions/workflows/quality-gate.yml"><img src="https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/rafael-tozato-portfolio-dev/quality-gate.yml?branch=main&label=Quality%20Gate" alt="Status do Quality Gate"></a>
-  <a href="https://github.com/Rafael-TOZATO/rafael-tozato-portfolio-dev/actions/workflows/codeql.yml"><img src="https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/rafael-tozato-portfolio-dev/codeql.yml?branch=main&label=CodeQL" alt="Status do CodeQL"></a>
-  <a href="https://github.com/Rafael-TOZATO/rafael-tozato-portfolio-dev/actions/workflows/dependency-review.yml"><img src="https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/rafael-tozato-portfolio-dev/dependency-review.yml?branch=main&label=Dependency%20Review" alt="Status do Dependency Review"></a>
 </div>
 
 ---
 
 ## 📌 Sobre o Projeto
-Este repositório (`rafael-tozato-portfolio-dev`) contém a aplicação principal do meu portfólio web, projetada com design dark/cyan, navegação fluida, métricas, projetos em destaque, certificações e curadoria de conteúdos técnicos.
+Este repositório (`h-folio`) contém a aplicação principal e o portfólio web profissional, projetados com design moderno, navegação fluida, métricas, projetos em destaque, certificações e curadoria de conteúdos técnicos.
 
 ---
 
-## 🚀 Projetos, Portfólios e Apps em Foco
+## 🚀 Projetos e Portfólios em Foco
 
-* **01. H-Folio (Aplicação Principal):** Hub central e ecossistema de soluções web. [Acessar App](https://h-folio-psi.vercel.app)
-* **02. Hub de Projetos (Tozato iCore):** Central de aplicações e ferramentas interativas. [Acessar App](https://tozato-ai-core.vercel.app)
-* **03. Portfólio Retrospectiva (Integrado):** Consolidado da Retrospectiva Técnica e Profissional, reunindo projetos em Governança 4.0, Automação, BI e IA.
-* **04. Aurora BI DIO:** Projeto de análise e visualização de dados orientado a decisões estratégicas.
-
----
-
-## 🛡️ Governança 4.0 — Segurança e Qualidade
-
-Este repositório adota controles automatizados de Governança 4.0 para assegurar integridade dos artefatos e do código, rastreabilidade das alterações, gestão de dependências e prevenção de exposição de credenciais.
-
-- **Quality Gate:** validação automatizada do escopo do repositório, incluindo verificações de integridade, testes, análise estática, tipagem ou build quando aplicáveis.
-- **Segurança de segredos:** varredura do histórico Git com Gitleaks Action v3.0.0.
-- **SAST:** análise com GitHub CodeQL para linguagens suportadas e presentes no código-fonte.
-- **Dependências:** monitoramento automatizado e revisão de vulnerabilidades conforme os manifests e lockfiles existentes.
-- **Menor privilégio:** permissões mínimas nos workflows e checkout sem persistência desnecessária de credenciais.
-- **Rastreabilidade:** commits, execuções e resultados dos controles permanecem registrados no GitHub Actions.
-
----
-
-<div align="center">
-
-[![Quality Gate](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/rafael-tozato-portfolio-dev/quality-gate.yml?branch=main&label=Quality%20Gate)](https://github.com/Rafael-TOZATO/rafael-tozato-portfolio-dev/actions/workflows/quality-gate.yml)
-[![Gitleaks](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/rafael-tozato-portfolio-dev/gitleaks.yml?branch=main&label=Gitleaks)](https://github.com/Rafael-TOZATO/rafael-tozato-portfolio-dev/actions/workflows/gitleaks.yml)
-[![CodeQL](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/rafael-tozato-portfolio-dev/codeql.yml?branch=main&label=CodeQL)](https://github.com/Rafael-TOZATO/rafael-tozato-portfolio-dev/actions/workflows/codeql.yml)
-[![Dependency Review](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/rafael-tozato-portfolio-dev/dependency-review.yml?branch=main&label=Dependency%20Review)](https://github.com/Rafael-TOZATO/rafael-tozato-portfolio-dev/actions/workflows/dependency-review.yml)
-
-</div>
+* **01. tozato-ai-core:** Núcleo do ecossistema de aplicações e soluções inteligentes Tozato AI. [Ver Código no GitHub](https://github.com/Rafael-TOZATO/tozato-ai-core)
+* **02. pipeline-pagamentos:** Pipeline de pagamentos em tempo real com CDC, Kafka, Flink SQL e detecção de fraude. [Ver Código no GitHub](https://github.com/Rafael-TOZATO/pipeline-pagamentos)
+* **03. ats-resume-generator-dio:** Aplicação web para análise inteligente de currículos e otimização para sistemas ATS. [Ver Código no GitHub](https://github.com/Rafael-TOZATO/ats-resume-generator-dio)
+* **04. n8n-cobrancas-inteligentes:** Automação financeira com n8n, Google Sheets e Gmail. [Ver Código no GitHub](https://github.com/Rafael-TOZATO/n8n-cobrancas-inteligentes)
+* **05. dashboard-analitico-financeiro-dio:** Painel executivo interativo para acompanhamento de indicadores financeiros. [Ver Código no GitHub](https://github.com/Rafael-TOZATO/dashboard-analitico-financeiro-dio)
+* **06. bootcamp-ibm-bob-ia-empresarial:** Trilha de capacitação e projetos em IA empresarial, dados e cloud IBM. [Ver Código no GitHub](https://github.com/Rafael-TOZATO/bootcamp-ibm-bob-ia-empresarial)
+* **07. recomendacao-musicas-neo4j:** Sistema de recomendação musical com modelagem de relações em grafos Neo4j. [Ver Código no GitHub](https://github.com/Rafael-TOZATO/recomendacao-musicas-neo4j)
+* **08. power_bi_analyst:** Projetos práticos de transformação, modelagem de dados e relatórios analíticos. [Ver Código no GitHub](https://github.com/Rafael-TOZATO/power_bi_analyst)
+* **09. governanca-qualidade-4.0:** Materiais técnicos sobre qualidade preditiva, governança e automação industrial. [Ver Código no GitHub](https://github.com/Rafael-TOZATO/governanca-qualidade-4.0)
+* **10. analise-de-vendas-financials-power-bi:** Relatório gerencial de vendas com navegação interativa e indicadores financeiros. [Ver Código no GitHub](https://github.com/Rafael-TOZATO/analise-de-vendas-financials-power-bi)
+* **11. projeto-financial-sample-powerbi:** Modelagem Star Schema, transformação com Power Query e calendário DAX. [Ver Código no GitHub](https://github.com/Rafael-TOZATO/projeto-financial-sample-powerbi)
+* **12. neo4j-certified-professional:** Estudo de bancos de grafos, consultas Cypher e documentação de certificação. [Ver Código no GitHub](https://github.com/Rafael-TOZATO/neo4j-certified-professional)
 
 ---
 
 ## 📬 CONTATOS E PERFIS
 
 💻 **PROJETOS E PORTFÓLIOS**
-* Ecossistema de Aplicativos: [https://tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
-* H-Folio Professional: [https://h-folio-psi.vercel.app](https://h-folio-psi.vercel.app)
+* App Ecosystem / Dev Hub: [https://tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
+* H-Folio Professional: [https://h-folio-I0.vercel.app](https://h-folio-I0.vercel.app)
 
 🐙 **CÓDIGOS E REPOSITÓRIOS**
 * GitHub: [https://github.com/Rafael-TOZATO](https://github.com/Rafael-TOZATO)
@@ -91,7 +71,7 @@ Este repositório adota controles automatizados de Governança 4.0 para assegura
 * Medium: [https://medium.com/@ornelas.tozato](https://medium.com/@ornelas.tozato)
 * Comunidade DEV: [https://dev.to/rafaeltozato](https://dev.to/rafaeltozato)
 
-💼 **REDE E CONTATO**
+💼 **CONTATO**
 * LinkedIn: [https://www.linkedin.com/in/rafaeltozato81](https://www.linkedin.com/in/rafaeltozato81)
-* E-mail: ornelas.tozato@gmail.com](mailto:ornelas.tozato@gmail.com)
-  
+* E-mail: [ornelas.tozato@gmail.com](mailto:ornelas.tozato@gmail.com)
+* Microsoft Learn: [https://learn.microsoft.com/pt-br/users/rafaelornelastozato-2209](https://learn.microsoft.com/pt-br/users/rafaelornelastozato-2209)
