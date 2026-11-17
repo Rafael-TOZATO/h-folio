@@ -10,6 +10,34 @@
 
 <br>
 
+<!-- CATEGORIA 1: STATUS, QUALIDADE & GOVERNANÇA -->
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-EM_GRADUAÇÃO-brightgreen?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/QUALIDADE-ISO_9001-blue?style=for-the-badge&logo=checkmarx&logoColor=white" alt="ISO 9001">
+  <img src="https://img.shields.io/badge/GOVERNANÇA-INDÚSTRIA_4.0-orange?style=for-the-badge&logo=databricks&logoColor=white" alt="Indústria 4.0">
+  <img src="https://img.shields.io/badge/LEAN_SIX_SIGMA-GREEN_BELT-pink?style=for-the-badge" alt="Green Belt">
+</p>
+
+<!-- CATEGORIA 2: STACK TÉCNICA & DESENVOLVIMENTO -->
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/PYTHON-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI">
+</p>
+
+<!-- CATEGORIA 3: DEVSECOPS, CI/CD & CLOUD -->
+<p align="center">
+  <img src="https://img.shields.io/badge/CI%2FCD-Active-success?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI/CD">
+  <img src="https://img.shields.io/badge/CodeQL-Protected-blue?style=for-the-badge&logo=github&logoColor=white" alt="CodeQL">
+  <a href="https://github.com/Rafael-TOZATO/h-folio/security"><img src="https://img.shields.io/badge/Secret%20Protection-Enabled-success?style=for-the-badge&logo=github&logoColor=white" alt="Secret Protection"></a>
+  <img src="https://img.shields.io/badge/VERCEL-PWA-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
+</p>
+
+<br>
+
 ## 📄 Retrospectiva Profissional & Trajetória
 <div align="center">
   <h3>"Da Bancada à Engenharia 4.0"</h3>
@@ -20,14 +48,11 @@
   </a>
 </div>
 
+<br>
+
 ## 🛠️ Stack Tecnológica & Ecossistema
 <div align="center">
-  <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React">
-  <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI">
-  <img src="https://img.shields.io/badge/Vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
+  <p>Ecossistema integrado voltado para alta performance, governança e inteligência artificial aplicada.</p>
 </div>
 
 ## 📌 Sobre o Projeto
