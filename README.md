@@ -10,8 +10,6 @@
 
 <br>
 
----
-
 ## 📄 Retrospectiva Profissional & Trajetória
 <div align="center">
   <h3>"Da Bancada à Engenharia 4.0"</h3>
@@ -21,8 +19,6 @@
     <img src="https://img.shields.io/badge/Acessar_PDF-Retrospectiva_Profissional-007ACC?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Ver PDF Retrospectiva">
   </a>
 </div>
-
----
 
 ## 🛠️ Stack Tecnológica & Ecossistema
 <div align="center">
@@ -34,12 +30,8 @@
   <img src="https://img.shields.io/badge/Vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
 </div>
 
----
-
 ## 📌 Sobre o Projeto
 Este repositório (`h-folio`) contém a aplicação principal e o portfólio web profissional, projetados com design moderno, navegação fluida, métricas, projetos em destaque, certificações e curadoria de conteúdos técnicos.
-
----
 
 ## 🚀 Projetos e Portfólios em Foco
 
@@ -56,22 +48,23 @@ Este repositório (`h-folio`) contém a aplicação principal e o portfólio web
 * **11. projeto-financial-sample-powerbi:** Modelagem Star Schema, transformação com Power Query e calendário DAX. [Ver Código no GitHub](https://github.com/Rafael-TOZATO/projeto-financial-sample-powerbi)
 * **12. neo4j-certified-professional:** Estudo de bancos de grafos, consultas Cypher e documentação de certificação. [Ver Código no GitHub](https://github.com/Rafael-TOZATO/neo4j-certified-professional)
 
----
+**Rafael Ornelas Tozato**
+
+Engenharia Química | Garantia da Qualidade | Governança 4.0
 
 ## 📬 CONTATOS E PERFIS
 
 💻 **PROJETOS E PORTFÓLIOS**
-* App Ecosystem / Dev Hub: [https://tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
-* H-Folio Professional: [https://h-folio-I0.vercel.app](https://h-folio-I0.vercel.app)
+* Ecossistema de Aplicativos: [tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
+* H-Folio Professional: [h-folio-I0.vercel.app](https://h-folio-I0.vercel.app)
 
 🐙 **CÓDIGOS E REPOSITÓRIOS**
-* GitHub: [https://github.com/Rafael-TOZATO](https://github.com/Rafael-TOZATO)
+* GitHub: [github.com/Rafael-TOZATO](https://github.com/Rafael-TOZATO)
 
 ✍️ **ARTIGOS E PUBLICAÇÕES**
-* Medium: [https://medium.com/@ornelas.tozato](https://medium.com/@ornelas.tozato)
-* Comunidade DEV: [https://dev.to/rafaeltozato](https://dev.to/rafaeltozato)
+* Medium: [medium.com/@ornelas.tozato](https://medium.com/@ornelas.tozato)
+* Comunidade DEV: [dev.to/rafaeltozato](https://dev.to/rafaeltozato)
 
 💼 **CONTATO**
-* LinkedIn: [https://www.linkedin.com/in/rafaeltozato81](https://www.linkedin.com/in/rafaeltozato81)
-* E-mail: [ornelas.tozato@gmail.com](mailto:ornelas.tozato@gmail.com)
-* Microsoft Learn: [https://learn.microsoft.com/pt-br/users/rafaelornelastozato-2209](https://learn.microsoft.com/pt-br/users/rafaelornelastozato-2209)
+* LinkedIn: [linkedin.com/in/rafaeltozato81](https://www.linkedin.com/in/rafaeltozato81)
+* E-mail: ornelas.tozato@gmail.com
