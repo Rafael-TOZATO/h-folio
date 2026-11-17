@@ -1,97 +1,62 @@
 <div align="center">
+  <img src="banner-portfolio.jpg" alt="Rafael Tozato - Software Engineering & Artificial Intelligence" width="100%">
+  
+  <br><br>
 
-![Banner Retrospectiva H-Folio](./banner-portfolio-retrospectiva.png)
+  <h1>🚀 Rafael Tozato | Portfólio Profissional</h1>
+  <p><b>Engenheiro de Software & Especialista em Engenharia 4.0, Automação, BI e IA</b></p>
+  <p>Hub central e ecossistema de aplicações focados em transformar código e inteligência em soluções de alto impacto.</p>
+</div>
 
-# 🚀 Rafael Ornelas Tozato — H-Folio & Ecossistema de Projetos
+<br>
 
-![Status](https://img.shields.io/badge/Status-Online-success?style=for-the-badge)
-![React](https://img.shields.io/badge/Framework-React%20%2F%20Next.js-blue?style=for-the-badge&logo=react)
-![TailwindCSS](https://img.shields.io/badge/Styling-TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss)
-![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel)
+---
 
-[![Static Asset Security & Quality Gate](https://github.com/Rafael-TOZATO/h-folio/actions/workflows/security-quality.yml/badge.svg?branch=main)](https://github.com/Rafael-TOZATO/h-folio/actions/workflows/security-quality.yml)
-[![Dependabot](https://img.shields.io/badge/Dependabot-enabled-025E8C?logo=dependabot&logoColor=white&style=flat-square)](https://github.com/Rafael-TOZATO/h-folio/network/updates)
-[![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/Rafael-TOZATO)
+## 📄 Retrospectiva Profissional & Trajetória
+<div align="center">
+  <h3>"Da Bancada à Engenharia 4.0"</h3>
+  <p>Confira o material em PDF com a trajetória completa, marcos de carreira, governança e ecossistema técnico.</p>
 
+  <a href="Carrossel_Retrospectiva_GitHub_Rafael_Tozato.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/Acessar_PDF-Retrospectiva_Profissional-007ACC?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Ver PDF Retrospectiva">
+  </a>
 </div>
 
 ---
 
----
+## 🛠️ Stack Tecnológica & Ecossistema
+<div align="center">
+  <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI">
+  <img src="https://img.shields.io/badge/Vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
+  <br><br>
+  <a href="https://github.com/Rafael-TOZATO/rafael-tozato-portfolio-dev/actions/workflows/quality-gate.yml"><img src="https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/rafael-tozato-portfolio-dev/quality-gate.yml?branch=main&label=Quality%20Gate" alt="Status do Quality Gate"></a>
+  <a href="https://github.com/Rafael-TOZATO/rafael-tozato-portfolio-dev/actions/workflows/codeql.yml"><img src="https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/rafael-tozato-portfolio-dev/codeql.yml?branch=main&label=CodeQL" alt="Status do CodeQL"></a>
+  <a href="https://github.com/Rafael-TOZATO/rafael-tozato-portfolio-dev/actions/workflows/dependency-review.yml"><img src="https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/rafael-tozato-portfolio-dev/dependency-review.yml?branch=main&label=Dependency%20Review" alt="Status do Dependency Review"></a>
+</div>
 
 ---
 
-## 📌 Sobre o Aplicativo
-O **H-Folio** é o ecossistema central de aplicações web e portfólio profissional de Rafael Ornelas Tozato, unindo engenharia de software, automações inteligentes, governança industrial e inteligência artificial.
+## 📌 Sobre o Projeto
+Este repositório (`rafael-tozato-portfolio-dev`) contém a aplicação principal do meu portfólio web, projetada com design dark/cyan, navegação fluida, métricas, projetos em destaque, certificações e curadoria de conteúdos técnicos.
 
 ---
 
----
+## 🚀 Projetos, Portfólios e Apps em Foco
+
+* **01. H-Folio (Aplicação Principal):** Hub central e ecossistema de soluções web. [Acessar App](https://h-folio-psi.vercel.app)
+* **02. Hub de Projetos (Tozato iCore):** Central de aplicações e ferramentas interativas. [Acessar App](https://tozato-ai-core.vercel.app)
+* **03. Portfólio Retrospectiva (Integrado):** Consolidado da Retrospectiva Técnica e Profissional, reunindo projetos em Governança 4.0, Automação, BI e IA.
+* **04. Aurora BI DIO:** Projeto de análise e visualização de dados orientado a decisões estratégicas.
 
 ---
 
-## 🚀 Projetos, Portfólios & Apps em Foco
+## 🛡️ Governança 4.0 — Segurança e Qualidade
 
-### 01. H-Folio (Este Aplicativo Principal)
-* **Descrição:** Hub central e ecossistema de soluções web.
-* **Link:** [h-folio-psi.vercel.app](https://h-folio-psi.vercel.app)
-
-### 02. Hub de Projetos (Dev Hub / TozatoCode-AI)
-* **Descrição:** Central de aplicações e ferramentas interativas.
-* **Link:** [tozato-dev-hub.vercel.app](https://tozato-dev-hub.vercel.app)
-
-### 03. Portfólio Retrospectiva *(Integrado)*
-* **Descrição:** Consolidado da Retrospectiva Técnica e Profissional, reunindo projetos em Governança 4.0, Automação, BI e IA. O perfil GitHub exibia 41 repositórios na captura de 11/11/2026.
-* **Repositório:** [portfolio-retrospectiva](https://github.com/Rafael-TOZATO/portfolio-retrospectiva)
-
-### 04. Aurora BI DIO
-* **Descrição:** Projeto de análise e visualização de dados orientado a decisões estratégicas.
-* **Link:** [aurora-bi-dio.lovable.app](https://aurora-bi-dio.lovable.app)
-
-### 05. Análise de Vendas Financials
-* **Descrição:** Dashboard financeiro para explorar indicadores de vendas, desempenho e oportunidades de negócio.
-
-### 06. ATS Resume Generator
-* **Descrição:** Gerador inteligente de currículos otimizado para sistemas ATS, combinando produto, web e inteligência artificial.
-
-### 07. n8n — Cobranças Inteligentes
-* **Descrição:** Automação financeira integrada com n8n, Google Sheets e Gmail para organizar cobranças e reduzir tarefas operacionais.
-
-### 08. Pipeline de Pagamentos
-* **Descrição:** Pipeline em tempo real com Postgres, CDC, eventos Avro e Flink SQL para enriquecimento e detecção de fraudes.
-
-### 09. Assistente de Investimentos
-* **Descrição:** Ferramenta automatizada com Python, BeautifulSoup e n8n para transformar dados em insights acionáveis.
-
-### 10. Dashboard de Gestão de RH
-* **Descrição:** Dashboard corporativo em Power BI para análise de métricas de recursos humanos e tomada de decisão.
-
-### 11. Dossiê Técnico Executivo & Governança
-* **Descrição:** Dashboard analítico corporativo e interativo para rastreabilidade de credenciais e matriz tecnológica.
-
-### 12. Projeto Final Design Patterns
-* **Descrição:** Aplicação de padrões de projeto (Singleton, Strategy, Facade) para estruturar soluções escaláveis em Java/Spring.
-
----
-
----
-
----
-
-## 🛠️ Tecnologias e Arquitetura
-- **Frontend & Interfaces:** React, TypeScript, Tailwind CSS, Next.js
-- **Infraestrutura & Deploy:** Vercel, Git / GitHub Actions
-- **Automação & Processos:** n8n, Python, Power BI, Governança 4.0
-
----
-
----
-
----
-
-## Governança 4.0 — Segurança e Qualidade
-
-Este repositório adota controles automatizados de Governança 4.0 para assegurar integridade dos artefatos e do código, rastreabilidade das alterações, gestão de dependências e prevenção de exposição de credenciais. Os controles são aplicados conforme a natureza técnica e os componentes efetivamente mantidos no projeto.
+Este repositório adota controles automatizados de Governança 4.0 para assegurar integridade dos artefatos e do código, rastreabilidade das alterações, gestão de dependências e prevenção de exposição de credenciais.
 
 - **Quality Gate:** validação automatizada do escopo do repositório, incluindo verificações de integridade, testes, análise estática, tipagem ou build quando aplicáveis.
 - **Segurança de segredos:** varredura do histórico Git com Gitleaks Action v3.0.0.
@@ -100,52 +65,33 @@ Este repositório adota controles automatizados de Governança 4.0 para assegura
 - **Menor privilégio:** permissões mínimas nos workflows e checkout sem persistência desnecessária de credenciais.
 - **Rastreabilidade:** commits, execuções e resultados dos controles permanecem registrados no GitHub Actions.
 
-### Controles específicos do repositório
-
-Este repositório distribui artefatos estáticos — PDF da retrospectiva e imagem de banner. Não contém código-fonte de aplicação, endpoints de API, manifesto npm ou dependências de runtime. Por esse motivo, análise CodeQL de JavaScript/TypeScript, SAST de aplicação e auditoria npm/pnpm não são aplicáveis ao conteúdo atualmente versionado.
-- **Integridade do PDF:** Quality Gate automatizado com validação da assinatura, verificação estrutural via qpdf e inspeção de ações ativas e conteúdo incorporado.
-- **Segurança de conteúdo:** o pipeline bloqueia construções PDF potencialmente executáveis, como JavaScript, ações de lançamento e arquivos incorporados.
-- **CI/CD:** execução em push, pull request, acionamento manual e agenda semanal.
-- **Dependências de automação:** Dependabot monitora semanalmente as GitHub Actions.
-- **Princípio de escopo:** nenhuma alteração nos arquivos visuais, no PDF ou no banner é realizada pelo workflow.
-Este repositório adota controles automatizados de Governança 4.0 para fortalecer a integridade dos artefatos digitais, a rastreabilidade das alterações e a prevenção de exposição de credenciais.
-- **Quality Gate:** validação da integridade estrutural do PDF, inspeção de conteúdo ativo e verificação dos metadados de governança.
-- **Segurança de segredos:** análise do histórico Git com Gitleaks Action v3.0.0.
-- **Dependências:** monitoramento automatizado das GitHub Actions por Dependabot.
-- **Menor privilégio:** permissões mínimas declaradas nos workflows e credenciais de checkout não persistidas.
-- **Preservação visual:** os controles de CI/CD não modificam o PDF, o banner ou os demais artefatos de apresentação.
-
----
-
 ---
 
 <div align="center">
 
-[![Quality Gate](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/h-folio/security-quality.yml?branch=main&label=Quality%20Gate)](https://github.com/Rafael-TOZATO/h-folio/actions/workflows/security-quality.yml)
-[![Gitleaks](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/h-folio/gitleaks.yml?branch=main&label=Gitleaks)](https://github.com/Rafael-TOZATO/h-folio/actions/workflows/gitleaks.yml)
+[![Quality Gate](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/rafael-tozato-portfolio-dev/quality-gate.yml?branch=main&label=Quality%20Gate)](https://github.com/Rafael-TOZATO/rafael-tozato-portfolio-dev/actions/workflows/quality-gate.yml)
+[![Gitleaks](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/rafael-tozato-portfolio-dev/gitleaks.yml?branch=main&label=Gitleaks)](https://github.com/Rafael-TOZATO/rafael-tozato-portfolio-dev/actions/workflows/gitleaks.yml)
+[![CodeQL](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/rafael-tozato-portfolio-dev/codeql.yml?branch=main&label=CodeQL)](https://github.com/Rafael-TOZATO/rafael-tozato-portfolio-dev/actions/workflows/codeql.yml)
+[![Dependency Review](https://img.shields.io/github/actions/workflow/status/Rafael-TOZATO/rafael-tozato-portfolio-dev/dependency-review.yml?branch=main&label=Dependency%20Review)](https://github.com/Rafael-TOZATO/rafael-tozato-portfolio-dev/actions/workflows/dependency-review.yml)
 
 </div>
-
-## 📬 CONTATOS E PERFIS
-
-* **Currículo & Governança:** Trajetória sólida em Engenharia de Software, Qualidade e Governança Industrial (ISO 9001 e Lean Six Sigma).
-* 📄 **Download do Documento / Carrossel (PDF):** [Visualizar Carrossel de Retrospectiva (PDF)](./Carrossel_Retrospectiva_GitHub_Rafael_Tozato.pdf)
 
 ---
 
 ## 📬 CONTATOS E PERFIS
 
 💻 **PROJETOS E PORTFÓLIOS**
-* Ecossistema de Aplicativos: [tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
-* H-Folio Professional: [h-folio-I0.vercel.app](https://h-folio-I0.vercel.app)
+* Ecossistema de Aplicativos: [https://tozato-ai-core.vercel.app](https://tozato-ai-core.vercel.app)
+* H-Folio Professional: [https://h-folio-psi.vercel.app](https://h-folio-psi.vercel.app)
 
 🐙 **CÓDIGOS E REPOSITÓRIOS**
-* GitHub: [github.com/Rafael-TOZATO](https://github.com/Rafael-TOZATO)
+* GitHub: [https://github.com/Rafael-TOZATO](https://github.com/Rafael-TOZATO)
 
 ✍️ **ARTIGOS E PUBLICAÇÕES**
-* Medium: [medium.com/@ornelas.tozato](https://medium.com/@ornelas.tozato)
-* Comunidade DEV: [dev.to/rafaeltozato](https://dev.to/rafaeltozato)
+* Medium: [https://medium.com/@ornelas.tozato](https://medium.com/@ornelas.tozato)
+* Comunidade DEV: [https://dev.to/rafaeltozato](https://dev.to/rafaeltozato)
 
 💼 **REDE E CONTATO**
-* LinkedIn: [linkedin.com/in/rafaeltozato81](https://www.linkedin.com/in/rafaeltozato81)
-* E-mail: [ornelas.tozato@gmail.com
+* LinkedIn: [https://www.linkedin.com/in/rafaeltozato81](https://www.linkedin.com/in/rafaeltozato81)
+* E-mail: ornelas.tozato@gmail.com](mailto:ornelas.tozato@gmail.com)
+  
