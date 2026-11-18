@@ -73,10 +73,6 @@ Este repositório (`h-folio`) contém a aplicação principal e o portfólio web
 * **11. projeto-financial-sample-powerbi:** Modelagem Star Schema, transformação com Power Query e calendário DAX. [Ver Código no GitHub](https://github.com/Rafael-TOZATO/projeto-financial-sample-powerbi)
 * **12. neo4j-certified-professional:** Estudo de bancos de grafos, consultas Cypher e documentação de certificação. [Ver Código no GitHub](https://github.com/Rafael-TOZATO/neo4j-certified-professional)
 
-**Rafael Ornelas Tozato**
-
-Engenharia Química | Garantia da Qualidade | Governança 4.0
-
 ## 📬 CONTATOS E PERFIS
 
 💻 **PROJETOS E PORTFÓLIOS**
